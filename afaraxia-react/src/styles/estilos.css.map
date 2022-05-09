@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,WAAW,EAAE,oBAAoB;EACjC,UAAU,EAAE,UAAU;CAEzB",
+    "sources": [
+        "estilos.scss",
+        "_NavBar.scss",
+        "_Variables.scss"
+    ],
+    "names": [],
+    "file": "estilos.css"
+}
