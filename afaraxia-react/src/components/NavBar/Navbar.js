@@ -1,5 +1,5 @@
 import '../../styles/estilos.css';
-
+import CartWidget from '../CartWidget/CartWidget';
 const Navbar = () => {
   return (
     <>
@@ -13,6 +13,7 @@ const Navbar = () => {
                 <ul className="navbar-nav">
                 </ul>
                 </div>
+                <CartWidget />
             </div>
         </nav>
    </>

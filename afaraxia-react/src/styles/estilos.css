@@ -5,4 +5,88 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+.navbar {
+  background: #F6CBE1;
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  font-size: 14px;
+}
+
+.navbar .container-fluid .navbar-brand {
+  color: #F7F5DE;
+}
+
+.CartDiv {
+  margin: 1rem 4rem 0.5rem 2rem;
+  font-size: 24px;
+  color: #F7F5DE;
+  cursor: pointer;
+}
+
+.sliderContainer {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #F7F5DE;
+  position: relative;
+}
+
+.sliderContainer .arrowContainer {
+  width: 2rem;
+  height: 7vh;
+  background: #475610;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 2%;
+  cursor: pointer;
+}
+
+.sliderContainer .arrowContainer .fa-solid {
+  color: #F7F5DE;
+  font-size: 14px;
+  padding: 0.3rem;
+}
+
+.sliderContainer .arrowContainer2 {
+  width: 2rem;
+  height: 7vh;
+  background: #475610;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 2%;
+  cursor: pointer;
+}
+
+.sliderContainer .arrowContainer2 .fa-solid {
+  color: #F7F5DE;
+  font-size: 14px;
+  padding: 0.3rem;
+}
 /*# sourceMappingURL=estilos.css.map */

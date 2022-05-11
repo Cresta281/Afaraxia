@@ -1,8 +1,10 @@
 .navbar {
     background: $rosa;
+    position: sticky !important;
+    font-size: 14px;
     .container-fluid {
         .navbar-brand {
-            color: $verde;
+            color: $blanco;
         } 
     }
 }

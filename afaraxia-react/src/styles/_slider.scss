@@ -1,0 +1,49 @@
+.sliderContainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: $blanco;
+    position: relative;
+    .arrowContainer {
+        width: 2rem;
+        height: 7vh;
+        background: $verde;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        left: 2%;
+        cursor: pointer;
+        .fa-solid {
+            color: $blanco;
+            font-size: 14px;
+            padding: 0.3rem;
+        }
+    
+    }
+    .arrowContainer2 {
+        width: 2rem;
+        height: 7vh;
+        background: $verde;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        right: 2%;
+        cursor: pointer;
+        .fa-solid {
+            color: $blanco;
+            font-size: 14px;
+            padding: 0.3rem;
+        }
+    
+    }
+}
