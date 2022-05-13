@@ -1,3 +1,14 @@
 $rosa: #F6CBE1;
 $verde: #475610;
 $blanco: #F7F5DE;
+
+@mixin boton {
+    border-radius: 20%;
+    background: $verde;
+    color: $blanco;
+    font-size: 21px;
+    font-weight: 200;
+    height: 10vh;
+    width: 10vw;
+    border: none;
+}

@@ -32,6 +32,8 @@
   display: flex;
   background: #F7F5DE;
   position: relative;
+  padding-top: 5rem;
+  overflow: hidden;
 }
 
 .sliderContainer .arrowContainer {
@@ -54,6 +56,7 @@
   margin: auto;
   left: 2%;
   cursor: pointer;
+  z-index: 2;
 }
 
 .sliderContainer .arrowContainer .fa-solid {
@@ -82,11 +85,190 @@
   margin: auto;
   right: 2%;
   cursor: pointer;
+  z-index: 2;
 }
 
 .sliderContainer .arrowContainer2 .fa-solid {
   color: #F7F5DE;
   font-size: 14px;
   padding: 0.3rem;
+}
+
+.sliderContainer .wrapper {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.sliderContainer .wrapper .slide {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sliderContainer .wrapper .slide .imageContainer {
+  height: 100%;
+  padding: 2rem 6rem 6rem 10rem;
+}
+
+.sliderContainer .wrapper .slide .imageContainer img {
+  max-width: 75%;
+  height: auto;
+  border-radius: 15%;
+}
+
+.sliderContainer .wrapper .slide .infoContainer {
+  padding: 2rem 10rem 6rem 6rem;
+  width: 150%;
+}
+
+.sliderContainer .wrapper .slide .infoContainer .title {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.sliderContainer .wrapper .slide .infoContainer .description {
+  font-size: 26px;
+  letter-spacing: 2px;
+}
+
+.sliderContainer .wrapper .slide .infoContainer .buttonSlider {
+  border-radius: 20%;
+  background: #475610;
+  color: #F7F5DE;
+  font-size: 21px;
+  font-weight: 200;
+  height: 10vh;
+  width: 10vw;
+  border: none;
+}
+
+.sliderContainer .wrapper1 {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: translateX(-200vh);
+          transform: translateX(-200vh);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.sliderContainer .wrapper1 .slide {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sliderContainer .wrapper1 .slide .imageContainer {
+  height: 100%;
+  padding: 2rem 6rem 6rem 10rem;
+}
+
+.sliderContainer .wrapper1 .slide .imageContainer img {
+  max-width: 75%;
+  height: auto;
+  border-radius: 15%;
+}
+
+.sliderContainer .wrapper1 .slide .infoContainer {
+  padding: 0 15rem 8rem 6rem;
+  width: 150%;
+}
+
+.sliderContainer .wrapper1 .slide .infoContainer .title {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.sliderContainer .wrapper1 .slide .infoContainer .description {
+  font-size: 26px;
+  letter-spacing: 2px;
+  width: 150%;
+}
+
+.sliderContainer .wrapper1 .slide .infoContainer .buttonSlider {
+  border-radius: 20%;
+  background: #475610;
+  color: #F7F5DE;
+  font-size: 21px;
+  font-weight: 200;
+  height: 10vh;
+  width: 10vw;
+  border: none;
+}
+
+.sliderContainer .wrapper2 {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: translateX(-400vh);
+          transform: translateX(-400vh);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.sliderContainer .wrapper2 .slide {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sliderContainer .wrapper2 .slide .imageContainer {
+  height: 100%;
+  padding: 2rem 6rem 6rem 10rem;
+}
+
+.sliderContainer .wrapper2 .slide .imageContainer img {
+  max-width: 75%;
+  height: auto;
+  border-radius: 15%;
+}
+
+.sliderContainer .wrapper2 .slide .infoContainer {
+  padding: 0 15rem 8rem 6rem;
+  width: 150%;
+}
+
+.sliderContainer .wrapper2 .slide .infoContainer .title {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.sliderContainer .wrapper2 .slide .infoContainer .description {
+  font-size: 26px;
+  letter-spacing: 2px;
+}
+
+.sliderContainer .wrapper2 .slide .infoContainer .buttonSlider {
+  border-radius: 20%;
+  background: #475610;
+  color: #F7F5DE;
+  font-size: 21px;
+  font-weight: 200;
+  height: 10vh;
+  width: 10vw;
+  border: none;
 }
 /*# sourceMappingURL=estilos.css.map */
