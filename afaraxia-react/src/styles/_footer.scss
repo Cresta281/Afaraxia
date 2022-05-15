@@ -1,0 +1,10 @@
+.footerContainer {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    span {
+        padding: 1rem 3rem;
+        color: $verde;
+    }
+}

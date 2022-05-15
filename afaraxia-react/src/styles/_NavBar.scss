@@ -5,6 +5,19 @@
     .container-fluid {
         .navbar-brand {
             color: $blanco;
-        } 
+            font-size: 1rem;
+            padding-left: 2rem;
+            text-transform: uppercase;
+        }
+        .navbar-nav {
+            .navLinks {
+                text-decoration: none;
+                color: $blanco;
+                font-size: 1rem;
+                text-transform: uppercase;
+                margin: 0rem 4rem 0rem 6rem;
+
+            }
+        }
     }
 }

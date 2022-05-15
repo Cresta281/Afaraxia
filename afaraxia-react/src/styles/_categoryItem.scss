@@ -1,0 +1,38 @@
+.categoryItemContainer {
+    flex: 1;
+    margin: 2rem;
+    height: 100vh;
+    position: relative;
+    .categoryImage {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 15%;
+    }
+    .categoryInfo {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .categoryTitle {
+            margin: 2rem;
+            color: $rosa;
+            padding-bottom: 5rem;
+            text-transform: uppercase;
+
+        }
+        .categoryButton {
+            @include boton;
+            background: $rosa;
+            color: $negro;
+            font-weight: 500;
+            box-shadow:  7px 0px 7px 1px $rosa;
+            
+        }
+    }
+}

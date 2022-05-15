@@ -1,0 +1,29 @@
+.CartContainer {
+    height: 100vh;
+    width: 100%;
+    background: $blanco;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    .CartTitle {
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        margin: -13rem 0 2rem 0;
+        .Cart {
+            display: flex;
+            
+        }
+        .CartTitle2 {
+            font-size: 1rem;
+            margin: 0 0 2rem 0;
+            
+        }
+    }
+    .CartTitle3 {
+        background: $rosa;
+        color: $negro;
+        font-size: 1.3rem;
+    }
+}

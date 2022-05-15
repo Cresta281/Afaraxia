@@ -1,5 +1,5 @@
 import '../../styles/estilos.css';
-import SliderData from './sliderData';
+import SliderData from '../../data/sliderData';
 import { useState } from 'react'
 
 

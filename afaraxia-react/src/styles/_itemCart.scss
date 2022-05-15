@@ -1,0 +1,56 @@
+.ItemCartContainer {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    background: $blanco;
+    position: relative;
+    padding-top: 5rem;
+    overflow: hidden;
+    background: $rosa;
+    margin: 2rem 1rem;
+    border-radius: 15%;
+    .ItemCartMinus {
+        width: 2rem;
+        height: 7vh;
+        background: $verde;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        left: 2%;
+        cursor: pointer;
+        z-index: 2;
+    }
+    .ItemCartPlus {
+        width: 2rem;
+        height: 7vh;
+        background: $verde;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        right: 2%;
+        cursor: pointer;
+        z-index: 2;
+    }
+    .ItemCartInfo {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        .ItemData {
+            font-size: 1rem;
+            color: $negro;
+            margin-top: -4rem;
+            padding-top: 1rem;
+        }
+    }
+}
