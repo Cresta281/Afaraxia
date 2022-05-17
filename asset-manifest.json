@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Afaraxia/static/css/main.5ecc21e9.css",
+    "main.js": "/Afaraxia/static/js/main.72f6111c.js",
+    "static/js/787.22f17cab.chunk.js": "/Afaraxia/static/js/787.22f17cab.chunk.js",
+    "static/media/background_home.jpg": "/Afaraxia/static/media/background_home.9805739d625b5cd59f6b.jpg",
+    "index.html": "/Afaraxia/index.html",
+    "main.5ecc21e9.css.map": "/Afaraxia/static/css/main.5ecc21e9.css.map",
+    "main.72f6111c.js.map": "/Afaraxia/static/js/main.72f6111c.js.map",
+    "787.22f17cab.chunk.js.map": "/Afaraxia/static/js/787.22f17cab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ecc21e9.css",
+    "static/js/main.72f6111c.js"
+  ]
+}
