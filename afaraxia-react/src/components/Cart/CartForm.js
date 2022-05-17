@@ -1,7 +1,7 @@
 import '../../styles/estilos.css'
 import {useState, useContext, useEffect } from 'react'
 import { Database } from '../../services/firebase'
-import { addDoc, collection, getDocs, writeBatch, query, where, documentId } from 'firebase/firestore'
+import { addDoc, collection } from 'firebase/firestore'
 import { CartContext } from '../../Context/CartContext'
 import {  Link } from 'react-router-dom'
 import { toast } from 'react-toastify'

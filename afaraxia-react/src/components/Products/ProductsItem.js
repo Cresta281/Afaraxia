@@ -2,8 +2,7 @@ import '../../styles/estilos.css'
 import { useNavigate } from 'react-router-dom'
 import { useContext, useState, useEffect} from 'react'
 import { CartContext } from '../../Context/CartContext'
-import { Database } from '../../services/firebase'
-import { getDoc} from 'firebase/firestore'
+
 
 
 
@@ -25,14 +24,10 @@ const ProductsItem = ({products}) => {
     const addReduce = (props) => {
        reducirStock(props)
         addItemToCart(props)
-        Reduce(props)
         
     }
     
-    const Reduce = (item) => {
-        const ids = item.map(prod => prod.id)
-        getDoc(Database,'ProductsData',`${ids}`).update({ stock: 1})
-    }
+
 
     return (
     <div className="itemContainer">

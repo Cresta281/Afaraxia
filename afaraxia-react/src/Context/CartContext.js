@@ -11,7 +11,6 @@ export const CartProvider = ({children}) => {
   
     const selectCategory = (cat) => {
         setCategory(cat)
-        console.log(category)
     }
 
     const [cartItems,setCartItems] = useState(()=> {
