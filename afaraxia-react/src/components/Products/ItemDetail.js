@@ -1,6 +1,5 @@
 import '../../styles/estilos.css'
 import { useParams, Link } from 'react-router-dom'
-import { Productos } from '../../data/productsData'
 import { CartContext } from '../../Context/CartContext'
 import {  useContext, useState, useEffect } from 'react'
 import { Database } from '../../services/firebase'
