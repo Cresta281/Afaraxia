@@ -1,0 +1,15 @@
+.errorButton {
+    @include boton;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 2rem 30rem;
+    .errorLink {
+        text-decoration: none;
+        color: $blanco;
+    }
+}
+.errorTitle {
+    font-size: 3rem;
+    text-align: center;
+    margin: 5rem;
+}

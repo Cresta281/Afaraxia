@@ -14,15 +14,17 @@ export const Productos = [
         img: img1,
         description: 'Mejor conservada en ambientes calidos sin necesidad de mucha agua.',
         stock: 10,
-        price: 1300
+        price: 1300,
+        category: 'Suculentas'
     },
     {
         id: 2,
         title: 'Suculenta Adam',
         img: img2,
         description: 'Brindale Agua y luz solar para poder apreciar su plena naturaleza.',
-        stock: 3,
-        price: 2000
+        stock: 5,
+        price: 2000,
+        category: 'Suculentas'
     },
     {
         id: 3,
@@ -30,7 +32,8 @@ export const Productos = [
         img: img3,
         description: 'Con tan solo un poco de luz le vas a dar ese aire fresco a tu habitacion.',
         stock: 7,
-        price: 900
+        price: 900,
+        category: 'Suculentas'
     },
     {
         id: 4,
@@ -38,7 +41,8 @@ export const Productos = [
         img: img4,
         description: 'Ideal para comenzar, sobrevive altas amplitudes termicas y olvidos de riego.',
         stock: 8,
-        price: 1000
+        price: 1000,
+        category: 'Suculentas'
     },
     {
         id: 5,
@@ -46,7 +50,8 @@ export const Productos = [
         img: img5,
         description: 'Una experiencia de los bosques europeos en el living de tu casa.',
         stock: 4,
-        price: 5000
+        price: 5000,
+        category: 'Bonsai'
     },
     {
         id: 6,
@@ -54,7 +59,8 @@ export const Productos = [
         img: img6,
         description: 'Teletransportate a la savanah africana con este exotico ejemplar.',
         stock: 3,
-        price: 7000
+        price: 7000,
+        category: 'Bonsai'
     },
     {
         id: 7,
@@ -62,7 +68,8 @@ export const Productos = [
         img: img7,
         description: 'Reliquia asiatica, fragiles y de muchos cuidados.',
         stock: 1,
-        price: 12000
+        price: 12000,
+        category: 'Bonsai'
     },
     {
         id: 8,
@@ -70,7 +77,8 @@ export const Productos = [
         img: img8,
         description: 'Robusto y fuerte, de los mejores ejemplares para iniciar en tu mundo del Bonsai.',
         stock: 5,
-        price: 4500
+        price: 4500,
+        category: 'Bonsai'
     }
     
     

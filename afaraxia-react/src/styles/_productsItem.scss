@@ -49,7 +49,21 @@
             }
             .fa-solid {
                 color: $blanco;
+                cursor: pointer;
             }
+        }
+    }
+    .stockContainer {
+        display: flex;
+        justify-content: space-evenly;
+        p {
+            font-size: 0.7rem;
+            margin-right: 1rem;
+            margin-left: 1rem;
+        }
+        .noStock {
+            font-size: 0.5rem;
+            margin-top: 1rem;
         }
     }
 }

@@ -10,8 +10,8 @@ const ItemCart = ({item}) => {
     <div className="ItemCartContainer">
          <div className="ItemCartInfo">
             <p className="ItemData">{item.title}</p>
-            <p className="ItemData">{item.price}</p>
-            <p className="ItemData">{item.amount}</p>
+            <p className="ItemData">${item.price}</p>
+            <p className="ItemData">Cantidad: {item.amount}</p>
         </div>
         <div className="ItemCartMinus">
             <i className="fa-solid fa-minus" onClick={()=> deleteItemToCart(item)} ></i>

@@ -26,7 +26,8 @@
   color: #F7F5DE;
   font-size: 1rem;
   text-transform: uppercase;
-  margin: 0rem 4rem 0rem 6rem;
+  margin: 0rem 4rem 0rem 5rem;
+  padding-top: 1rem;
 }
 
 .CartDiv {
@@ -51,7 +52,7 @@
 .sliderContainer .arrowContainer {
   width: 2rem;
   height: 7vh;
-  background: #475610;
+  background: #497B47;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -80,7 +81,7 @@
 .sliderContainer .arrowContainer2 {
   width: 2rem;
   height: 7vh;
-  background: #475610;
+  background: #497B47;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -156,15 +157,20 @@
 
 .sliderContainer .wrapper .slide .infoContainer .buttonSlider {
   border-radius: 20%;
-  background: #475610;
+  background: #497B47;
   color: #F7F5DE;
   font-size: 21px;
   font-weight: 200;
   height: 10vh;
   width: 10vw;
   border: none;
-  -webkit-box-shadow: 7px 0px 7px 1px #475610;
-          box-shadow: 7px 0px 7px 1px #475610;
+  -webkit-box-shadow: 7px 0px 7px 1px #497B47;
+          box-shadow: 7px 0px 7px 1px #497B47;
+}
+
+.sliderContainer .wrapper .slide .infoContainer .buttonSlider .sliderLink {
+  text-decoration: none;
+  color: #F7F5DE;
 }
 
 .sliderContainer .wrapper1 {
@@ -218,15 +224,20 @@
 
 .sliderContainer .wrapper1 .slide .infoContainer .buttonSlider {
   border-radius: 20%;
-  background: #475610;
+  background: #497B47;
   color: #F7F5DE;
   font-size: 21px;
   font-weight: 200;
   height: 10vh;
   width: 10vw;
   border: none;
-  -webkit-box-shadow: 7px 0px 7px 1px #475610;
-          box-shadow: 7px 0px 7px 1px #475610;
+  -webkit-box-shadow: 7px 0px 7px 1px #497B47;
+          box-shadow: 7px 0px 7px 1px #497B47;
+}
+
+.sliderContainer .wrapper1 .slide .infoContainer .buttonSlider .sliderLink {
+  text-decoration: none;
+  color: #F7F5DE;
 }
 
 .sliderContainer .wrapper2 {
@@ -279,15 +290,20 @@
 
 .sliderContainer .wrapper2 .slide .infoContainer .buttonSlider {
   border-radius: 20%;
-  background: #475610;
+  background: #497B47;
   color: #F7F5DE;
   font-size: 21px;
   font-weight: 200;
   height: 10vh;
   width: 10vw;
   border: none;
-  -webkit-box-shadow: 7px 0px 7px 1px #475610;
-          box-shadow: 7px 0px 7px 1px #475610;
+  -webkit-box-shadow: 7px 0px 7px 1px #497B47;
+          box-shadow: 7px 0px 7px 1px #497B47;
+}
+
+.sliderContainer .wrapper2 .slide .infoContainer .buttonSlider .sliderLink {
+  text-decoration: none;
+  color: #F7F5DE;
 }
 
 .categoriesContainer {
@@ -347,20 +363,25 @@
 
 .categoryItemContainer .categoryInfo .categoryButton {
   border-radius: 20%;
-  background: #475610;
+  background: #497B47;
   color: #F7F5DE;
   font-size: 21px;
   font-weight: 200;
   height: 10vh;
   width: 10vw;
   border: none;
-  -webkit-box-shadow: 7px 0px 7px 1px #475610;
-          box-shadow: 7px 0px 7px 1px #475610;
+  -webkit-box-shadow: 7px 0px 7px 1px #497B47;
+          box-shadow: 7px 0px 7px 1px #497B47;
   background: #F6CBE1;
   color: #130801;
   font-weight: 500;
   -webkit-box-shadow: 7px 0px 7px 1px #F6CBE1;
           box-shadow: 7px 0px 7px 1px #F6CBE1;
+}
+
+.categoryItemContainer .categoryInfo .categoryButton .categoryLink {
+  text-decoration: none;
+  color: #130801;
 }
 
 .productsContainer {
@@ -455,13 +476,33 @@
 }
 
 .itemContainer .productsInfo .iconsContainer:hover {
-  background: #475610;
+  background: #497B47;
   -webkit-transform: scale(1.4);
           transform: scale(1.4);
 }
 
 .itemContainer .productsInfo .iconsContainer .fa-solid {
   color: #F7F5DE;
+  cursor: pointer;
+}
+
+.itemContainer .stockContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.itemContainer .stockContainer p {
+  font-size: 0.7rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.itemContainer .stockContainer .noStock {
+  font-size: 0.5rem;
 }
 
 .footerContainer {
@@ -481,11 +522,11 @@
 
 .footerContainer span {
   padding: 1rem 3rem;
-  color: #475610;
+  color: #497B47;
 }
 
 .CartContainer {
-  height: 100vh;
+  height: 130vh;
   width: 100%;
   background: #F7F5DE;
   display: -webkit-box;
@@ -511,13 +552,20 @@
   margin: -13rem 0 2rem 0;
 }
 
-.CartContainer .CartTitle .Cart {
+.CartContainer .CartItemContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.CartContainer .CartTitle .CartTitle2 {
+.CartContainer .CartItemContainer .Cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.CartContainer .CartItemContainer .CartTitle2 {
   font-size: 1rem;
   margin: 0 0 2rem 0;
 }
@@ -528,8 +576,25 @@
   font-size: 1.3rem;
 }
 
+.CartContainer .CartLinks {
+  text-decoration: none;
+}
+
+.CartContainer .CartLinks .CartButton {
+  border-radius: 20%;
+  background: #497B47;
+  color: #F7F5DE;
+  font-size: 21px;
+  font-weight: 200;
+  height: 10vh;
+  width: 10vw;
+  border: none;
+  -webkit-box-shadow: 7px 0px 7px 1px #497B47;
+          box-shadow: 7px 0px 7px 1px #497B47;
+}
+
 .ItemCartContainer {
-  width: 100%;
+  width: 10rem;
   height: 25vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -544,9 +609,9 @@
 }
 
 .ItemCartContainer .ItemCartMinus {
-  width: 2rem;
-  height: 7vh;
-  background: #475610;
+  width: 1.5rem;
+  height: 5vh;
+  background: #130801;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -564,12 +629,22 @@
   left: 2%;
   cursor: pointer;
   z-index: 2;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.ItemCartContainer .ItemCartMinus:hover {
+  background: #C11818;
+}
+
+.ItemCartContainer .ItemCartMinus .fa-solid {
+  color: #F7F5DE;
 }
 
 .ItemCartContainer .ItemCartPlus {
-  width: 2rem;
-  height: 7vh;
-  background: #475610;
+  width: 1.5rem;
+  height: 5vh;
+  background: #130801;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -587,6 +662,16 @@
   right: 2%;
   cursor: pointer;
   z-index: 2;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.ItemCartContainer .ItemCartPlus:hover {
+  background: #497B47;
+}
+
+.ItemCartContainer .ItemCartPlus .fa-solid {
+  color: #F7F5DE;
 }
 
 .ItemCartContainer .ItemCartInfo {
@@ -601,12 +686,341 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .ItemCartContainer .ItemCartInfo .ItemData {
   font-size: 1rem;
   color: #130801;
-  margin-top: -4rem;
+  margin-top: -5rem;
   padding-top: 1rem;
+}
+
+.errorButton {
+  border-radius: 20%;
+  background: #497B47;
+  color: #F7F5DE;
+  font-size: 21px;
+  font-weight: 200;
+  height: 10vh;
+  width: 10vw;
+  border: none;
+  -webkit-box-shadow: 7px 0px 7px 1px #497B47;
+          box-shadow: 7px 0px 7px 1px #497B47;
+  text-decoration: none;
+  font-size: 1rem;
+  margin: 2rem 30rem;
+}
+
+.errorButton .errorLink {
+  text-decoration: none;
+  color: #F7F5DE;
+}
+
+.errorTitle {
+  font-size: 3rem;
+  text-align: center;
+  margin: 5rem;
+}
+
+.DetailContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 155vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 1rem;
+  width: 100%;
+  background: #F7F5DE;
+  border: 1px solid #F6CBE1;
+}
+
+.DetailContainer .DetailImgContainer {
+  width: 50%;
+  height: 50%;
+}
+
+.DetailContainer .DetailImgContainer .DetailImg {
+  height: 70%;
+  width: 70%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 2rem 0rem 0rem 10rem;
+}
+
+.DetailContainer .DetailTitle {
+  padding-top: 1rem;
+}
+
+.DetailContainer .DetailInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30%;
+  padding-bottom: 2rem;
+}
+
+.DetailContainer .DetailInfo p {
+  font-size: 0.7rem;
+  background: #F6CBE1;
+  color: #130801;
+  padding: 1.5rem;
+  border: solid 1px #F7F5DE;
+  border-radius: 15%;
+}
+
+.DetailContainer .DetailDescription {
+  font-size: 1rem;
+  width: 60%;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.DetailContainer .DetailButton {
+  font-size: 1rem;
+  text-decoration: none;
+  background: #130801;
+  color: #F7F5DE;
+  padding: 1.5rem;
+  border: solid 1px #F7F5DE;
+  border-radius: 15%;
+  text-align: center;
+  -webkit-box-shadow: 7px 0px 7px 1px #F6CBE1;
+          box-shadow: 7px 0px 7px 1px #F6CBE1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.DetailContainer .DetailButton:hover {
+  background: #F6CBE1;
+  color: #130801;
+}
+
+.ContactoContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 200vh;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #F7F5DE;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.ContactoContainer .ContactoWrapper {
+  height: 70vh;
+  width: 60%;
+  margin-top: 5rem;
+}
+
+.ContactoContainer .ContactoWrapper .ContactoImage {
+  width: 100%;
+  height: 100%;
+  border-radius: 15%;
+}
+
+.ContactoContainer .ContactoWrapper h1 {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+}
+
+.ContactoContainer .ContactoWrapper p {
+  position: absolute;
+  top: 20%;
+  width: 40%;
+  left: 40%;
+}
+
+.ContactoContainer .ContactoInfo {
+  padding-top: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.ContactoContainer .ContactoInfo .InfoCard {
+  background: #130801;
+  width: 50%;
+  border-radius: 15%;
+  margin-left: 1rem;
+}
+
+.ContactoContainer .ContactoInfo .InfoCard p {
+  color: #F7F5DE;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+.ContactoContainer .ContactoInfo .InfoCard p span {
+  background: #F6CBE1;
+  color: #130801;
+  margin-left: 1rem;
+}
+
+.ContactoContainer .ContactoInfo .SeedCard {
+  border-radius: 50%;
+  background: #F6CBE1;
+  height: 15%;
+  width: 5%;
+}
+
+.ContactoContainer .ContactoInfo .SeedCard .fa-solid {
+  color: #497B47;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.Form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 150vh;
+  width: 100%;
+  position: relative;
+}
+
+.Form .FormWrapper {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  background: #F7F5DE;
+  height: 100vh;
+  width: 40rem;
+  border-radius: 15%;
+}
+
+.Form .FormWrapper h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.Form .FormWrapper .NameContainer {
+  padding: 2rem,1rem;
+  border: none;
+  margin-top: 3rem;
+  height: 9vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.Form .FormWrapper .NameContainer .Name {
+  background: #F6CBE1;
+  border: none;
+  margin: 0.3rem 2rem;
+  color: #130801;
+}
+
+.Form .FormWrapper .NameContainer .Name:hover {
+  background: #130801;
+  color: #F7F5DE;
+}
+
+.Form .FormWrapper .DataContainer {
+  padding: 2rem,1rem;
+  border: none;
+  margin-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.Form .FormWrapper .DataContainer .email {
+  background: #F6CBE1;
+  border: none;
+  margin: -1rem 2rem;
+  color: #130801;
+}
+
+.Form .FormWrapper .DataContainer .email:hover {
+  background: #130801;
+  color: #F7F5DE;
+}
+
+.Form .FormWrapper .AddedData {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 5rem;
+  padding-left: 2rem;
+}
+
+.Form .FormWrapper .AddedData .Text {
+  height: 25vh;
+  width: 50%;
+  color: #130801;
+  background: #F6CBE1;
+  border: none;
+}
+
+.Form .FormWrapper .AddedData .Text:hover {
+  background: #130801;
+  color: #F7F5DE;
+}
+
+.Form .FormWrapper .AddedData .Button {
+  height: 10vh;
+  width: 15%;
+  color: #130801;
+  background: #F6CBE1;
+  border: none;
+  margin-left: 3rem;
+}
+
+.Form .FormWrapper .AddedData .Button:hover {
+  background: #130801;
+}
+
+.Form .FormWrapper .AddedData .Button:hover .buttonLink {
+  text-decoration: none;
+  color: #F7F5DE;
+}
+
+.Form .FormWrapper .AddedData .Button .buttonLink {
+  text-decoration: none;
+  color: #130801;
 }
 /*# sourceMappingURL=estilos.css.map */

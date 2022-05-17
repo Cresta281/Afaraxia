@@ -8,12 +8,14 @@ export const categories = [
         img: img4,
         alt: 'Arboles Bonsai',
         title: 'Bonsai',
+        category: 'Bonsai'
     },
     {
         id: 2,
         img: img5,
         alt: 'Plantas Variadas',
         title: 'Suculentas',
+        category: 'Suculentas'
     }
 ]
 

@@ -32,6 +32,10 @@
             color: $negro;
             font-weight: 500;
             box-shadow:  7px 0px 7px 1px $rosa;
+            .categoryLink {
+                text-decoration: none;
+                color: $negro;
+            }
             
         }
     }

@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { getFirestore } from 'firebase/firestore'
+import { getFirestore, collection, getDocs } from 'firebase/firestore'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -14,4 +14,12 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
-export const firestoreDb = getFirestore(app)
+export const Database = getFirestore(app)
+
+export async function getProducts(Database) {
+  const productsColl = collection(Database, 'ProductsData');
+  const productsSnapshot = await getDocs(productsColl);
+  const productsList = productsSnapshot.docs.map(doc => doc.data());
+  return productsList;
+}
+

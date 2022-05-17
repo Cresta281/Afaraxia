@@ -1,10 +1,20 @@
 import '../../styles/estilos.css';
-import SliderData from '../../data/sliderData';
-import { useState } from 'react'
-
+import { Database } from '../../services/firebase'
+import { collection, getDocs, } from 'firebase/firestore'
+import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 
 const Slider = () => {
   const [slideIndex,setSlideIndex] = useState(0)
+  const  [sliders, setSliders] = useState([])
+  const slidersRef = collection(Database,'SliderData')
+  useEffect(()=> {
+    const getSliders = async () => {
+      const data = await getDocs(slidersRef)
+      setSliders(data.docs.map((doc) => ({...doc.data(), id: doc.id})))
+    }
+    getSliders()
+  }, [])
 
   const handleWrap = (direction) => {
     if(direction === "left"){
@@ -22,14 +32,14 @@ const Slider = () => {
             <i className="fa-solid fa-arrow-left"></i>
         </div>
         <div className={slideIndex === 1 ? "wrapper1" : slideIndex === 2 ? "wrapper2" : "wrapper"}>
-            {SliderData.map((data)=>(
+            {sliders.map((data)=>(
               <div className="slide">
                 <div className="imageContainer">
                   <img src={data.img} alt={data.alt}/></div>
                 <div className="infoContainer">
                   <h1 className="title"> {data.title}</h1>
                   <p className= "description">{data.description}</p>
-                  <button className="buttonSlider">Descubrir</button>
+                  <button className="buttonSlider"><Link className="sliderLink" to={slideIndex === 1 ? '/contacto' : slideIndex === 2 ? '/product' : '/product/Suculenta%20Espinola'}>Descubrir</Link></button>
                 </div>
               </div>
             ))}

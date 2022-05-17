@@ -1,0 +1,93 @@
+.Form {
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+    width: 100%;
+    position: relative;
+    .FormWrapper {
+        position: absolute;
+        left: 20%;
+        top: 20%;
+        background: $blanco;
+        height: 100vh;
+        width: 40rem;
+        border-radius: 15%;
+        h1 {
+            font-size: 1.5rem;
+            text-align: center;
+            padding-top: 1rem;
+        }
+        .NameContainer {
+            padding: 2rem,1rem;
+            border: none;
+            margin-top: 3rem;
+            height: 9vh;
+            display: flex;
+            justify-content: space-evenly;
+            .Name {
+                background: $rosa;
+                border: none;
+                margin: 0.3rem 2rem;
+                color: $negro;
+                &:hover {
+                    background: $negro;
+                    color: $blanco;
+                }
+
+            }
+        }
+        .DataContainer {
+            padding: 2rem,1rem;
+            border: none;
+            margin-top: 3rem;
+            display: flex;
+            justify-content: space-evenly;
+            .email {
+                background: $rosa;
+                border: none;
+                margin: -1rem 2rem;
+                color: $negro;
+                &:hover {
+                    background: $negro;
+                    color: $blanco;
+                }
+            }
+        }
+        .AddedData {
+            display: flex;
+            align-items: center;
+            padding-top: 5rem;
+            padding-left: 2rem;
+            .Text {
+                height: 25vh;
+                width: 50%;
+                color: $negro;
+                background: $rosa;
+                border: none;
+                &:hover {
+                    background: $negro;
+                    color: $blanco;
+                }
+            }
+            .Button {
+                height: 10vh;
+                width: 15%;
+                color: $negro;
+                background: $rosa;
+                border: none;
+                margin-left: 3rem;
+                &:hover {
+                    background: $negro;
+                    .buttonLink {
+                        text-decoration: none;
+                        color: $blanco;
+                    }
+                }
+                .buttonLink {
+                    text-decoration: none;
+                    color: $negro;
+                }
+            }
+        }
+    }
+}

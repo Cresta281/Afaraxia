@@ -1,6 +1,7 @@
 import '../../styles/estilos.css';
 import CartWidget from '../CartWidget/CartWidget';
 import { Link } from 'react-router-dom';
+
 const Navbar = () => {
   return (
     <>
@@ -13,8 +14,9 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                   <Link className="navLinks" to='/'> Home </Link>
-                  <Link className="navLinks" to='/list'> Products </Link>
-                  <Link className="navLinks" to='/cart'><CartWidget /> </Link>
+                  <Link className="navLinks" to='/product'> Productos </Link>
+                  <Link className="navLinks" to='/contacto'>Contacto</Link>
+                  <Link className="CartWidget" to='/cart'><CartWidget /> </Link>
                 </ul>
                 </div>
             </div>

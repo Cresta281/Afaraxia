@@ -82,6 +82,10 @@
                 }
                 .buttonSlider {
                     @include boton;
+                    .sliderLink {
+                        text-decoration: none;
+                        color: $blanco;
+                    }
                 }
             }
         }
@@ -119,6 +123,10 @@
                 }
                 .buttonSlider {
                     @include boton;
+                    .sliderLink {
+                        text-decoration: none;
+                        color: $blanco;
+                    }
                 }
             }
         }
@@ -155,6 +163,10 @@
                 }
                 .buttonSlider {
                     @include boton;
+                    .sliderLink {
+                        text-decoration: none;
+                        color: $blanco;
+                    }
                 }
             }
         }

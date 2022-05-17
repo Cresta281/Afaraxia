@@ -1,5 +1,5 @@
 .ItemCartContainer {
-    width: 100%;
+    width: 10rem;
     height: 25vh;
     display: flex;
     background: $blanco;
@@ -10,9 +10,9 @@
     margin: 2rem 1rem;
     border-radius: 15%;
     .ItemCartMinus {
-        width: 2rem;
-        height: 7vh;
-        background: $verde;
+        width: 1.5rem;
+        height: 5vh;
+        background: $negro;
         border-radius: 50%;
         display: flex;
         align-items: center;
@@ -24,11 +24,19 @@
         left: 2%;
         cursor: pointer;
         z-index: 2;
+        transition: all 0.5s ease;
+        &:hover {
+            background: $rojo;
+        }
+        .fa-solid {
+            color: $blanco;
+    
+        }
     }
     .ItemCartPlus {
-        width: 2rem;
-        height: 7vh;
-        background: $verde;
+        width: 1.5rem;
+        height: 5vh;
+        background: $negro;
         border-radius: 50%;
         display: flex;
         align-items: center;
@@ -40,16 +48,24 @@
         right: 2%;
         cursor: pointer;
         z-index: 2;
+        transition: all 0.5s ease;
+        &:hover {
+            background: $verde;
+        }
+        .fa-solid {
+            color: $blanco;
+        }
     }
     .ItemCartInfo {
         display: flex;
         width: 100%;
         align-items: center;
         flex-direction: column;
+        justify-content: space-between;
         .ItemData {
             font-size: 1rem;
             color: $negro;
-            margin-top: -4rem;
+            margin-top: -5rem;
             padding-top: 1rem;
         }
     }
